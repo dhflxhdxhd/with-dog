@@ -1,5 +1,11 @@
+@import url(reset.css);
+.navbar{
+  height: 70px;
+  box-shadow: 0px 1px 10px #999;;
+}
+
 #hero {
-  margin-top: 88px;
+  margin-top: 70px;
   height: 400px;
   background-image: url("../images/main_1.png");
   background-position: center;
@@ -47,4 +53,127 @@ footer {
 
 .footer-list a {
   margin: 0px 10px;
+}
+
+
+
+
+
+/* 지역별 관광지 조회 */
+.contents-container{
+  margin-top: 70px;
+}
+
+/* progressbar */
+.progressSpace{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.progressbar{
+  margin-top: 5%;
+  width: 80%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+  box-shadow: inset 0 0.5em 0.5em rgba(0,0,0,0.05);
+}
+
+/* localCard */
+.localCard-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  padding-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* local */
+.local-container{
+  padding-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.jejuImg{
+  width: 80%;
+  border-radius: 20px;
+}
+
+.pin{
+  width: 4rem;
+  height: 4rem;
+}
+
+.pin img{
+  width: 4rem;
+}
+.pin1{
+  position: absolute;
+  left: 40%;
+  right: 0;  
+  top: 13%;
+}
+
+.pin2{
+  position:absolute;
+  left: 20%;
+  right: 0;
+  top: 15%;
+}
+
+.pin3{
+  position:absolute;
+  left: 0;
+  right: 5%;
+  top: 20%;
+}
+
+.pin4{
+  position:absolute;
+  left: 0%;
+  right: 25%;
+  top: 25%;
+}
+
+.pin5{
+  position:absolute;
+  left: 0%;
+  right: 40%;
+  top: 55%;
+}
+
+.pin6{
+  position:absolute;
+  left: 0%;
+  right: 5%;
+  top: 50%;
+}
+
+.pin7{
+  position:absolute;
+  left: 0%;
+  right: 50%;
+  top: 43%;
+}
+
+.pin8{
+  position:absolute;
+  left: 30%;
+  right: 0%;
+  top: 45%;
+}
+
+.pin9{
+  position:absolute;
+  left: 50%;
+  right: 0%;
+  top: 35%;
+}
+
+.pin:hover{
+  transform: scale(1.5,1.5);
 }
